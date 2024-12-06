@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    ;
+}
+
+.nav-ul li{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-1,.dropdown-2{
+    position: absolute;
+    left: -10%;
+    box-shadow:  0px 4px 10px 1px ;
+    padding: 10px;
+    display: none;
+}
+
+.show{
+    display: block;
+}

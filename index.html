@@ -1,0 +1,140 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Logo</h1>
+            <ul class="nav-ul">
+                <li class="dropDownBtn">Features 
+                    <ul class="dropdown-1 dropdown">
+                        <li>features</li>
+                        <li>features</li>
+                        <li>features</li>
+                        <li>features</li>
+                    </ul>
+                </li>
+                <li class="dropDownBtn">company
+                    <ul class="dropdown-2 dropdown">
+                        <li>company</li>
+                        <li>company</li>
+                        <li>company</li>
+                        <li>company</li>
+                    </ul>
+                </li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+            
+        </nav>
+    </header>
+    <script src="app.js"></script>
+   </body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <h1>logo</h1>
+            <ul class="nav-ul">
+                <li class="features dropDownBtn" >Features
+                    <ul class="dropdown-1 dropdown">
+                        <li>Features</li>
+                        <li>Features</li>
+                        <li>Features</li>
+                        <li>Features</li>
+                    </ul>
+                </li>
+                <li class="company dropDownBtn" >Company
+                    <ul class="dropdown-2 dropdown">
+                        <li>Company</li>
+                        <li>Company</li>
+                        <li>Company</li>
+                        <li>Company</li>
+                    </ul>
+                </li>
+                <li>Careers</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="">
+        <button id="hi">hi</button>
+        <button id="hello">hello</button>
+        <button id="whatsUp">whats up</button>
+        <p id="results"></p>
+    </section>
+
+    <section class="tab1-section">
+        <div class="tab">
+            <h4 class="question-title">tab 1</h4>
+            <p class="answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, repudiandae! Sed soluta, consequatur incidunt perferendis, provident maxime hic voluptatum ratione adipisci tempore repudiandae, deleniti quo neque perspiciatis repellat modi libero.</p>
+        </div>
+        <div class="tab"></div>
+            <h4 class="question-title">tab 2</h4>
+            <p class="answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, repudiandae! Sed soluta, consequatur incidunt perferendis, provident maxime hic voluptatum ratione adipisci tempore repudiandae, deleniti quo neque perspiciatis repellat modi libero.</p>
+        </div>
+
+        <div class="tab"></div>
+            <h4 class="question-title">tab 2</h4>
+            <p class="answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, repudiandae! Sed soluta, consequatur incidunt perferendis, provident maxime hic voluptatum ratione adipisci tempore repudiandae, deleniti quo neque perspiciatis repellat modi libero.</p>
+        </div>
+    </section>
+
+    <section class="tab-section">
+        <div class="tabs">
+            <button class="tab-button" onclick="openTab(event, 'Tab1')">Tab 1</button>
+            <button class="tab-button" onclick="openTab(event, 'Tab2')">Tab 2</button>
+            <button class="tab-button" onclick="openTab(event, 'Tab3')">Tab 3</button>
+        </div>
+
+        <div id="Tab1" class="tab-content">
+            <h4>Tab 1 Content</h4>
+            <p>This is the content for Tab 1.</p>
+        </div>
+
+        <div id="Tab2" class="tab-content" style="display:none">
+            <h4>Tab 2 Content</h4>
+            <p>This is the content for Tab 2.</p>
+        </div>
+
+        <div id="Tab3" class="tab-content" style="display:none">
+            <h4>Tab 3 Content</h4>
+            <p>This is the content for Tab 3.</p>
+        </div>
+    </section>
+
+
+
+    <section class="modal-section">
+        <button id="openModal">Open Modal</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>This is a modal window!</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
